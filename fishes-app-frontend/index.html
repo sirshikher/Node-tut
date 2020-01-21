@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.formCheck{
+ width: 100%;
+ background-color: #939393;
+   padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#container {
+    width: 100%;
+ background-color: #3CBC8D;
+   padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#crocodile_container{
+     width: 100%;
+ background-color: #3CBC8D;
+   padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FishApp!</title>
+</head>
+<body>
+<p><b> Fish: </b></p>
+    <ul id="container"></ul>
+    
+    <form action="#" id="new-fish-form">
+        <div class="formCheck">
+            <label for="name">Name(Fish):</label>
+            <input type="text" name="name" id="name"/>
+       
+        
+        <button>Add a fish!</button>
+         </div>
+    </form>
+    <p><b> Crocodile: </b> </p>
+
+        <div  id="crocodile_container"></div>
+    <form action="#" id="new-crocodile-form">
+        <div class="formCheck">
+            <label for="name">Name(crocodile):</label>
+            <input type="text" name="name_cro" id="name_cro"/>
+     
+        <button>Add a Crocodile!</button>
+         </div>
+    </form>
+
+    <form id="new-form">
+    <label for="name">username:</label>
+<input type="text" name="name_name" id="name_name"/>
+<br/>
+<br/>
+<label for="name">Password:</label>
+<input  type="password" name="pass" id="pass"/>
+<button>Submit</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
